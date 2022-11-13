@@ -1,4 +1,4 @@
-ublic class TenMinWalk {
+public class TenMinWalk {
   public static boolean isValid(char[] walk) {
     // If the walk isn't ten minutes at all, don't bother.
     if (walk.length < 10 || walk.length > 10) {return false;}
